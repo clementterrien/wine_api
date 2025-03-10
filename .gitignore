@@ -1,0 +1,45 @@
+# Fichiers et dossiers Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers csv 
+*.csv
+# Environnement virtuel
+venv/
+.env
+*.env
+
+# Fichiers de logs
+logs/
+*.log
+
+# Dépendances installées
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Base de données SQLite (si utilisée pour les tests)
+*.sqlite3
+
+# Fichiers et dossiers spécifiques à MySQL
+mysql_data/
+*.sql
+
+# Alembic
+alembic/versions/*.pyc
+alembic/versions/*.pyo
+alembic/versions/*.pyd
+
+# Outils et éditeurs
+.vscode/
+.idea/
+*.iml
+
+# MySQL Workbench
+*.bak
+*.mwb.bak
+*.mwb
+
+# MacOS
+.DS_Store
